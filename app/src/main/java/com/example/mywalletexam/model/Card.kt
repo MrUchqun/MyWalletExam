@@ -10,6 +10,6 @@ data class Card(
     val expiration_date: String,
     val holder_name: String,
     @PrimaryKey(autoGenerate = true)
-    val id: Int,
+    val id: Int?=null,
     var isAdded: Boolean? = false
 )

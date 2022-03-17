@@ -8,7 +8,7 @@ import androidx.room.TypeConverters
 import com.example.mywalletexam.database.CardDao
 import com.example.mywalletexam.model.Card
 
-@Database(entities = [Card::class], version = 2)
+@Database(entities = [Card::class], version = 3)
 abstract class RoomManager : RoomDatabase() {
 
     abstract fun cardDao(): CardDao
